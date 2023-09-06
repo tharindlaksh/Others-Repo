@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "inivos-task-client-side-solution",
+    "id": "8a3a8534-45ac-4958-890d-9b70ce4d96bc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "This package includes web part designed for demo purpose"
+      },
+      "longDescription": {
+        "default": "This package includes web part designed for demo purpose"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "inivos-task Feature",
+        "description": "The feature that activates elements of the inivos-task solution.",
+        "id": "c3b0a8cc-4974-4acc-810b-3ea3d552c2bb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/inivos-task.sppkg"
+  }
+}
